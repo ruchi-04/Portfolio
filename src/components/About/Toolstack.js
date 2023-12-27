@@ -2,8 +2,8 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
   SiVisualstudiocode,
-  SiPostman,
-  SiSlack,
+  SiStreamlit,
+  SiWindows,
   SiVercel,
   SiMacos,
 } from "react-icons/si";
@@ -18,10 +18,10 @@ function Toolstack() {
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
+        <SiStreamlit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSlack />
+        <SiWindows />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVercel />
@@ -31,3 +31,4 @@ function Toolstack() {
 }
 
 export default Toolstack;
+
