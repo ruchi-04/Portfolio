@@ -46,7 +46,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> Pandas,Matplotliv,Scikit-Learn,pickle and opencv</b>
+                <b className="purple"> Pandas,Matplotlib,Scikit-Learn,pickle and opencv</b>
               </i>
             </p>
           </Col>
