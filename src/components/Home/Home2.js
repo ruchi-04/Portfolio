@@ -6,8 +6,6 @@ import {
   AiFillGithub,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-const MyComponent = () => {
-  const [rotation, setRotation] = useState(0);
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
@@ -53,14 +51,6 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              tiltMaxAngleX={30}
-              tiltMaxAngleY={30}
-              glareEnable={true}
-              glareMaxOpacity={0.5}
-              scale={1.02}
-              onMouseEnter={() => setRotation(10)}
-              onMouseLeave={() => setRotation(0)}
-              style={{ transform: `rotate(${rotation}deg)` }}
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
