@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Ruchi </span>
             from <span className="purple"> Himachal Pradesh, India.</span>
             <br />
-            Currently, I'm Pursuing My bachelor of Technology from Lovely Professional University.
+            Completed,My bachelor of Technology from Lovely Professional University.
             <br />
             I have completed My Schooling from DAV School,Dharamshala.
             <br />
